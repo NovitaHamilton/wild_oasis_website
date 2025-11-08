@@ -3,7 +3,11 @@ import Logo from "@/app/_components/Logo";
 import "@/app/_styles/globals.css";
 
 export const metadata = {
-  title: "The Wild Oasis",
+  title: {
+    template: "%s | The Wild Oasis",
+    default: "The Wild Oasis",
+  },
+  description: "Luxurious cabin hotel, located in the heart of the Canadian Rockies, sourrounded by rugged mountains and crystal clear lakes.",
 };
 
 
