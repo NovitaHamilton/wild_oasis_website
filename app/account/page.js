@@ -1,12 +1,13 @@
 export const metadata = {
-    title: "My Account",
+  title: "My Account",
 };
 
 export default function Page() {
-    return (
-        <div>
-            <h1>My account page</h1>
-        </div>
-    );
+  return (
+    <div>
+      <h2 className="font-semibold text-2xl text-accent-400 mb-7">
+        Welcome, <span className="text-primary-200">[Guest Name]</span>
+      </h2>
+    </div>
+  );
 }
-
